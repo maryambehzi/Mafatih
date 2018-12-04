@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaghibatActivity">
+
+    <Button
+        android:id="@+id/moshtarak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="151dp"
+
+        android:layout_marginBottom="10dp"
+        android:text="تعقیبات مشترک"
+        android:textColor="#1b8138"
+        app:layout_constraintBottom_toTopOf="@+id/sobh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/zohr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="3dp"
+        android:text="تعقیبات نماز ظهر"
+        android:textColor="#1b8138"
+        app:layout_constraintBottom_toTopOf="@+id/asr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sobh" />
+
+    <Button
+        android:id="@+id/asr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="2dp"
+        android:text="تعقیبات نماز عصر"
+        android:textColor="#1b8138"
+        app:layout_constraintBottom_toTopOf="@+id/maghreb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zohr" />
+
+    <Button
+        android:id="@+id/maghreb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="50dp"
+        android:text="تعقیبات نماز مغرب"
+        android:textColor="#1b8138"
+        app:layout_constraintBottom_toTopOf="@+id/esha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asr" />
+
+    <Button
+        android:id="@+id/sobh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="11dp"
+        android:text=" تعقیبات نماز صبح"
+        android:textColor="#1b8138"
+        app:layout_constraintBottom_toTopOf="@+id/zohr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moshtarak" />
+
+    <Button
+        android:id="@+id/esha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="52dp"
+
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="119dp"
+        android:text="تعقیبات نماز عشاء"
+        android:textColor="#1b8138"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maghreb" />
+
+</android.support.constraint.ConstraintLayout>
