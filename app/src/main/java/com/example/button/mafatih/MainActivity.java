@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(joshan);
     }
     public void openziarathaActivity(){
-        Intent ziaratha = new Intent(this, ZiaratMenu.class);
+        Intent ziaratha = new Intent(this, ziarathaActivity.class);
         startActivity(ziaratha);
 
     }
