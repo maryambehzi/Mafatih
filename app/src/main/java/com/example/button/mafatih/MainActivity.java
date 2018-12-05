@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+
             }
         });
 
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(joshan);
     }
     public void openziarathaActivity(){
-        Intent ziaratha = new Intent(this, ziarathaActivity.class);
+        Intent ziaratha = new Intent(this, ZiaratMenu.class);
         startActivity(ziaratha);
 
     }

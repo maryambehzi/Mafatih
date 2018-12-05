@@ -26,8 +26,7 @@
         <activity android:name=".asrActivity" />
         <activity android:name=".maghrebActivity" />
         <activity android:name=".eshaActivity" />
-        <activity android:name=".ziarathaActivity"></activity>
-
+        <activity android:name=".ziarathaActivity" />
         <activity android:name=".Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,7 +34,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".ZiaratMenu">
             <intent-filter>
                 <action android:name="android.intent.action.ZIARATMENU" />
@@ -43,7 +41,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".taghibatMenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.TAGHIBATMENUACTIVITY" />
@@ -51,10 +48,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
-
-
-
+        <activity android:name=".sobohActivity" />
+        <activity android:name=".komailActivity" />
+        <activity android:name=".asharatActivity" />
+        <activity android:name=".samatActivity" />
+        <activity android:name=".mashlolActivity"></activity>
     </application>
 
 </manifest>
