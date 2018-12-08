@@ -37,13 +37,10 @@ public class joshanActivity extends AppCompatActivity {
         joshanback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                backtomain();
+                finish();
             }
         });
     }
 
-    public void backtomain(){
-        Intent backjoshan = new Intent(this, MainActivity.class);
-        startActivity(backjoshan);
-    }
+
     }

@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
 
         ziaratha = (Button) findViewById(R.id.ziaratha);
 
-        ziaratha.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openziarathaActivity();
-            }
-        });
+//        ziaratha.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                openziarathaActivity();
+//            }
+//        });
 
         adiye.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+
+            }
+        });
+        ziaratha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
             }
         });

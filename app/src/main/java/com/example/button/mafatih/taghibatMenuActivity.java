@@ -48,6 +48,10 @@ public class taghibatMenuActivity extends ListActivity {
 
         //        Toast.makeText(getApplicationContext(),Taglists.toString(),Toast.LENGTH_LONG).show();
 
+//        if(classname == "Adiye")
+//            finish();
+//        else {
+
 
         try {
 
@@ -55,10 +59,10 @@ public class taghibatMenuActivity extends ListActivity {
             Intent open = new Intent(taghibatMenuActivity.this, clicked);
             startActivity(open);
             } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
+                finish();        }
 
     }
+//}
 
     public void getTag(){
         String Tag;

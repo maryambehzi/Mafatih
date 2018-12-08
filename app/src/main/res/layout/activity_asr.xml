@@ -8,7 +8,10 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -34,11 +37,33 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="1in"
                 android:text=" " />
+
             <Button
+                android:id="@+id/asrnext"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/asrtxt"
+                android:layout_marginTop="300dp"
+                android:text="بعدی" />
+
+            <Button
+                android:id="@+id/asrpre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/asrtxt"
+                android:layout_marginTop="250dp"
+                android:text="قبلی"
+
+                />
+
+            <Button
                 android:id="@+id/asrback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/asrnext"
                 android:text="بازگشت"
+
+
                 />
         </RelativeLayout>
     </ScrollView>

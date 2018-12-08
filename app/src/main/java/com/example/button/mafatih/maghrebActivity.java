@@ -41,12 +41,9 @@ public class maghrebActivity extends AppCompatActivity {
         maghrebback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                backtoTaghibat();
+                finish();
             }
         });
     }
-    public void backtoTaghibat(){
-        Intent backmaghreb = new Intent(this, TaghibatActivity.class);
-        startActivity(backmaghreb);
-    }
+
 }

@@ -38,14 +38,11 @@ public class MoshtarakActivity extends AppCompatActivity {
         moshtarakback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                backtotaghibat();
+                finish();
             }
         });
 
     }
-    public void backtotaghibat(){
-        Intent backmoshtarak = new Intent(this, TaghibatActivity.class);
-        startActivity(backmoshtarak);
-    }
+
 
 }

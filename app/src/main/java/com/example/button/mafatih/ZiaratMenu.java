@@ -48,14 +48,18 @@ public class ZiaratMenu extends ListActivity {
 
 //        Toast.makeText(getApplicationContext(),Taglists.toString(),Toast.LENGTH_LONG).show();
 
+        if(className=="Main") {
+            finish();
+        }
+        else {
 
-        try{
+            try {
 
-            Class clicked = Class.forName("com.example.button.mafatih." + className + "Activity" );
-            Intent open = new Intent(ZiaratMenu.this, clicked);
-            startActivity(open);
+                Class clicked = Class.forName("com.example.button.mafatih." + className + "Activity");
+                Intent open = new Intent(ZiaratMenu.this, clicked);
+                startActivity(open);
             } catch (ClassNotFoundException e) {
-            e.printStackTrace();
+                finish();            }
         }
 
     }

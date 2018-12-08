@@ -64,12 +64,9 @@ public class sobhActivity extends AppCompatActivity {
         sobhback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                backtotaghibat();
+                finish();
             }
         });
     }
-    public void backtotaghibat() {
-        Intent backsobh = new Intent(this, TaghibatActivity.class);
-        startActivity(backsobh);
-    }
+
 }

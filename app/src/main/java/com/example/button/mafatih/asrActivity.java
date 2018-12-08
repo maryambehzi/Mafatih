@@ -19,35 +19,35 @@ public class asrActivity extends AppCompatActivity {
         setContentView(R.layout.activity_asr);
 
          Button asrback = (Button) findViewById(R.id.asrback);
-         TextView asrtxt = (TextView) findViewById(R.id.asrtxt);
+         final TextView asrtxt = (TextView) findViewById(R.id.asrtxt);
+         Button next = (Button) findViewById(R.id.asrnext);
+         Button pre = (Button) findViewById(R.id.asrpre);
 
-        String asr = " ";
-
-        try{
-            InputStream is = getAssets().open("asr.txt");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            asr = new String(buffer);
+        final String[] asr = {" "};
 
 
+            try{
+                InputStream is = getAssets().open("asr.txt");
+                int size = is.available();
+                byte[] buffer = new byte[size];
+                is.read(buffer);
+                is.close();
+                asr[0] = new String(buffer);
 
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
-        asrtxt.setText(asr);
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            asrtxt.setText(asr[0]);
+
 
         asrback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                backtotaghibat ();
+                finish();
             }
         });
-    }
-    public void backtotaghibat(){
-        Intent backasr = new Intent(this, TaghibatActivity.class);
-        startActivity(backasr);
     }
 }

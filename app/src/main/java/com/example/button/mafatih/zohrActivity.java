@@ -42,13 +42,10 @@ public class zohrActivity extends AppCompatActivity {
         zohrback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                backtotaghibat();
+                finish();
             }
         });
 
     }
-    public void backtotaghibat(){
-        Intent backzohr = new Intent(this, TaghibatActivity.class);
-        startActivity(backzohr);
-    }
+
 }

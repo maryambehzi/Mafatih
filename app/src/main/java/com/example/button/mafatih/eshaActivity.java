@@ -40,12 +40,9 @@ public class eshaActivity extends AppCompatActivity {
         eshaback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                backtotaghibat();
+                finish();
             }
         });
     }
-    public void backtotaghibat(){
-        Intent backesha = new Intent(this, TaghibatActivity.class);
-        startActivity(backesha);
-    }
+
 }
