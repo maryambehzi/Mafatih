@@ -3,6 +3,9 @@ package com.example.button.mafatih;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -17,6 +20,25 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 
 public class taghibatMenuActivity extends ListActivity {
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.backbar, menu);
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+//         switch (item.getGroupId()){
+//             case R.id.backbar:
+//                 finish();
+//                 return true;
+//             default:
+        finish();
+        return super.onOptionsItemSelected(item);}
 
    ArrayList<String> Taglists = new ArrayList<>();
    ArrayList<String> Namelists = new ArrayList<>();

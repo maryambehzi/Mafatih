@@ -13,18 +13,18 @@ public class AshoraActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ashora);
 
-        Button ashoraback = (Button) findViewById(R.id.ashoraback);
+//        Button ashoraback = (Button) findViewById(R.id.ashoraback);
 
-        ashoraback.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                backtomain();
-            }
-        });
-    }
+//        ashoraback.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                backtomain();
+//            }
+//        });
+//    }
 
-    public void backtomain(){
-        Intent backashora = new Intent(this, MainActivity.class);
-        startActivity(backashora);
+//    public void backtomain(){
+//        Intent backashora = new Intent(this, MainActivity.class);
+//        startActivity(backashora);
     }
 }

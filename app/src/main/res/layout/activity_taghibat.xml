@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TaghibatActivity">
+    tools:context=".TaghibatActivity"
+    android:background="@drawable/txtbackground">
 
     <Button
         android:id="@+id/moshtarak"
@@ -19,7 +20,9 @@
         app:layout_constraintBottom_toTopOf="@+id/sobh"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/rounded_button"
+        />
 
     <Button
         android:id="@+id/zohr"
@@ -35,7 +38,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sobh" />
+        app:layout_constraintTop_toBottomOf="@+id/sobh"
+        android:background="@drawable/rounded_button"
+        />
 
     <Button
         android:id="@+id/asr"
@@ -49,7 +54,9 @@
         app:layout_constraintBottom_toTopOf="@+id/maghreb"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/zohr" />
+        app:layout_constraintTop_toBottomOf="@+id/zohr"
+        android:background="@drawable/rounded_button"
+        />
 
     <Button
         android:id="@+id/maghreb"
@@ -57,7 +64,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
         android:layout_marginTop="10dp"
-
         android:layout_marginEnd="137dp"
         android:layout_marginBottom="50dp"
         android:text="تعقیبات نماز مغرب"
@@ -65,7 +71,9 @@
         app:layout_constraintBottom_toTopOf="@+id/esha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/asr" />
+        app:layout_constraintTop_toBottomOf="@+id/asr"
+        android:background="@drawable/rounded_button"
+        />
 
     <Button
         android:id="@+id/sobh"
@@ -73,7 +81,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="125dp"
         android:layout_marginTop="10dp"
-
         android:layout_marginEnd="144dp"
         android:layout_marginBottom="11dp"
         android:text=" تعقیبات نماز صبح"
@@ -81,7 +88,9 @@
         app:layout_constraintBottom_toTopOf="@+id/zohr"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/moshtarak" />
+        app:layout_constraintTop_toBottomOf="@+id/moshtarak"
+        android:background="@drawable/rounded_button"
+        />
 
     <Button
         android:id="@+id/esha"
@@ -89,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="135dp"
         android:layout_marginTop="52dp"
-
+        android:background="@drawable/rounded_button"
         android:layout_marginEnd="135dp"
         android:layout_marginBottom="119dp"
         android:text="تعقیبات نماز عشاء"

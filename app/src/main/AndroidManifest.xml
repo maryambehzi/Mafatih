@@ -52,7 +52,15 @@
         <activity android:name=".komailActivity" />
         <activity android:name=".asharatActivity" />
         <activity android:name=".samatActivity" />
-        <activity android:name=".mashlolActivity"></activity>
+        <activity android:name=".mashlolActivity" />
+        <activity android:name=".HafteMenuActivity" />
+        <activity android:name=".shanbeActivity" />
+        <activity android:name=".yekshanbeActivity" />
+        <activity android:name=".doshanbeActivity" />
+        <activity android:name=".seshanbeActivity" />
+        <activity android:name=".chaharshanbeActivity" />
+        <activity android:name=".panjshanbeActivity" />
+        <activity android:name=".jomeActivity"></activity>
     </application>
 
 </manifest>

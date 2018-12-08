@@ -35,13 +35,18 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="1in"
-                android:text="@string/ashora" />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/ashoraback"
-                android:text="بازگشت"
-                android:layout_below="@+id/ziarat"/>
+                android:text="@string/ashora"
+                android:textColor="#ffffff"
+                android:textStyle="bold"/>
+
+            <!--<Button-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/ashoraback"-->
+                <!--android:text="بازگشت"-->
+                <!--android:layout_below="@+id/ziarat"-->
+                <!--android:background="@drawable/rounded_button"-->
+                <!--/>-->
         </RelativeLayout>
 
     </ScrollView>

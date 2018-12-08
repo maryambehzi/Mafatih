@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".asrActivity">
+    tools:context=".asrActivity"
+    android:background="@drawable/txtbackground">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -20,13 +21,16 @@
 
             <TextView
                 android:id="@+id/asrtitle"
-                android:layout_width="85dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="163dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="163dp"
-                android:layout_marginBottom="476dp"
-                android:text="تعقیبات نماز عصر" />
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/namazasr"
+                android:layout_marginLeft="120dp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:layout_marginTop="20dp"/>
 
 
             <TextView
@@ -36,35 +40,25 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="1in"
-                android:text=" " />
-
-            <Button
-                android:id="@+id/asrnext"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/asrtxt"
-                android:layout_marginTop="300dp"
-                android:text="بعدی" />
-
-            <Button
-                android:id="@+id/asrpre"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/asrtxt"
-                android:layout_marginTop="250dp"
-                android:text="قبلی"
-
+                android:text=" "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:textSize="20dp"
                 />
 
-            <Button
-                android:id="@+id/asrback"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/asrnext"
-                android:text="بازگشت"
 
-
-                />
+            <!--<Button-->
+                <!--android:id="@+id/asrback"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@id/asrtxt"-->
+                <!--android:text="بازگشت"-->
+                <!--android:background="@drawable/rounded_button"-->
+<!---->
+<!---->
+<!---->
+                <!--/>-->
         </RelativeLayout>
     </ScrollView>
 
