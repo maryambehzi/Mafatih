@@ -29,15 +29,17 @@
 
 
             <TextView
+                android:id="@+id/ziarat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/ziarat"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="1in"
-                android:text="@string/ashora"
+                android:text=" "
                 android:textColor="#ffffff"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:textSize="20dp"/>
 
             <!--<Button-->
                 <!--android:layout_width="wrap_content"-->

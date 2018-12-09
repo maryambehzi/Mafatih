@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 //
 public class MainActivity extends AppCompatActivity {
-    private Button adiye , ziaratha , exit ;
+    private Button adiye , ziaratha , exit, search ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
 
         ziaratha = (Button) findViewById(R.id.ziaratha);
 
+        search = (Button) findViewById(R.id.search_btn);
+
 //        ziaratha.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
@@ -31,6 +33,13 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 
+
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                opensearchActivity();
+            }
+        });
         adiye.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,8 +74,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(ziaratha);
 
     }
+    public void opensearchActivity(){
+        Intent search = new Intent(this, SearchActivity.class);
+        startActivity(search);
+    }
 }
-//
-//
-//
-//
+
+
+

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/sa"
+    android:background="@drawable/menubackgroud"
 
     tools:layout_editor_absoluteY="81dp">
 
@@ -14,9 +14,8 @@
         android:id="@+id/adiye"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-        android:layout_marginStart="148dp"
-        android:layout_marginBottom="33dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/rounded_button"
         android:text="ادعیه"
         android:textColor="#de4d44"
@@ -29,9 +28,7 @@
         android:id="@+id/ziaratha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-
-        android:layout_marginStart="148dp"
+        android:layout_marginStart="135dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/rounded_button"
         android:padding="10dp"
@@ -46,10 +43,8 @@
         android:id="@+id/about"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-
-        android:layout_marginStart="148dp"
-        android:layout_marginBottom="29dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/rounded_button"
         android:text="درباره ما"
         android:textColor="#de4d44"
@@ -63,14 +58,29 @@
         android:id="@+id/exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-
-        android:layout_marginStart="147dp"
+        android:layout_marginStart="135dp"
         android:layout_marginEnd="125dp"
-        android:layout_marginBottom="108dp"
+        android:layout_marginBottom="112dp"
         android:background="@drawable/rounded_button"
         android:text="خروج"
         android:textColor="#de4d44"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/searchbutton"
+        android:text="جست‌وجو "
+        android:textColor="#ffffff"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

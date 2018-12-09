@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TaghibatActivity"
-    android:background="@drawable/txtbackground">
+    android:background="@drawable/txt">
 
     <Button
         android:id="@+id/moshtarak"

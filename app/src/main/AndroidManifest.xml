@@ -60,7 +60,8 @@
         <activity android:name=".seshanbeActivity" />
         <activity android:name=".chaharshanbeActivity" />
         <activity android:name=".panjshanbeActivity" />
-        <activity android:name=".jomeActivity"></activity>
+        <activity android:name=".jomeActivity" />
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>

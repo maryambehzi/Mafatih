@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".sobhActivity"
-    android:background="@drawable/txtbackground">
+    android:background="@drawable/txt">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -42,8 +42,10 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="1in"
                 android:text=" "
+                android:textColor="#ffffff"
                 android:textStyle="bold"
-                android:textColor="#ffffff"/>
+                android:padding="15dp"
+                android:textSize="20dp"/>
 
             <!--<Button-->
                 <!--android:id="@+id/sobhback"-->

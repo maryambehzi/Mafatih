@@ -26,6 +26,8 @@ import java.util.jar.Attributes;
 
     public class ZiaratMenu extends ListActivity {
 
+
+
         @Override
         public boolean onCreateOptionsMenu(Menu menu) {
 
@@ -50,6 +52,7 @@ import java.util.jar.Attributes;
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
+
 
             getName();
 
