@@ -48,6 +48,13 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity android:name=".favoritsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.FAVORITSACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".sobohActivity" />
         <activity android:name=".komailActivity" />
         <activity android:name=".asharatActivity" />
@@ -61,7 +68,8 @@
         <activity android:name=".chaharshanbeActivity" />
         <activity android:name=".panjshanbeActivity" />
         <activity android:name=".jomeActivity" />
-        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".counterActivity"></activity>
     </application>
 
 </manifest>

@@ -23,7 +23,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.jar.Attributes;
 
-
     public class ZiaratMenu extends ListActivity {
 
 
