@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class counterActivity extends AppCompatActivity {
+public class  counterActivity extends AppCompatActivity {
 
     private static final String SAVE = "save";
 
@@ -59,6 +59,9 @@ public class counterActivity extends AppCompatActivity {
         txt = save.getString(TEXT, "");
         txtcnt.setText(txt);
 
+        i = Integer.parseInt(String.valueOf(txtcnt));
+
+
 
 
 
@@ -66,7 +69,9 @@ public class counterActivity extends AppCompatActivity {
         count.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 i++;
+
                 txtcnt.setText(""+i+"");
 
                 reset.setOnClickListener(new View.OnClickListener() {

@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
 //    SharedPreferences favorite = getSharedPreferences();
 //
-    private Button adiye , ziaratha , exit, search , favlist , counter;
+    private Button adiye , ziaratha , exit, search , counter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
         search = (Button) findViewById(R.id.search_btn);
 
-        favlist = (Button) findViewById(R.id.favorites);
+//      favlist = (Button) findViewById(R.id.favorites);
 
         counter = (Button) findViewById(R.id.counter);
 
